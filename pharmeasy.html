@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmeasy</title>
+    <link rel="icon" href="image/icons.png">
+    <link rel="stylesheet" href="pharmeasy.css">
+</head>
+<style>
+    .overall-wallet{
+        height: 1500;
+        width: 500px;
+        border: 1px solid hsl(0, 7%, 92%);
+        margin-left: 1000px;
+        margin-top: 0px;
+    }
+    .wallet-im img{
+        width: 500px;
+    }
+    .register-wallet{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+.input1{
+    width: 390px;
+    margin-top: 20px;
+    height: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(86, 84, 84);
+}
+.input2{
+    width: 415px;
+    margin-top: 20px;
+    height: 42px;
+    padding: 10px;
+    background-color: #10847e;
+    border-radius: 10px;
+    border: 1px solid rgb(86, 84, 84);
+}
+.footer-wallet{
+    margin-top: 300px;
+}
+.footer-wallet p{
+    color: black;
+    margin-bottom: 10px;
+}
+</style>
+<body>
+    <div id="wallet">
+        <div class="overall-wallet"  hidden>
+        <div class="wallet-im"><img src="image/form.jpg" alt=""></div>
+        <div class="register-wallet">
+            <h3 style="font-size: 26px;">Register to Avail the offer</h3>
+            <input type="number" name="number" id="" placeholder="Enter your phone number" class="input1" maxlength="10">
+            <br>
+            <button type="submit"class="input2" maxlength="10">Send OTP</button>
+        </div>
+        <div class="footer-wallet">
+            <p>By Countinuing ,you agree with our <a href="#">privacy Policy</a>and <a href="#">Terms and conditions</a></p>
+        </div>
+    </div>
+    </div>
+    <!-- navbar start -->
+    <nav class="navbar" >
+        <div class="nav" style=" height: 80px;">
+            <img src="image/pharmeasy.png" alt="logo" width="140px" height="70px">
+
+            <div class="delivery">
+                <p>
+                    <img src="image/fast.jpeg" alt="" width="20px" height="20px">
+                    Express delivery to
+                <h4>486002 Rewa</h4>
+                </p>
+            </div>
+            <div class="download-app">
+                <a href="https://apps.apple.com/IN/app/id982432643?mt=8" target="_blank">
+                    <img src="image/appa.png" alt="" width="20px" height="20px">
+                    Download App
+                </a>
+            </div>
+
+            <ul>
+                <li class="page">
+                    <a href="#">
+                        <img src="image/login.png" alt="" width="20px" height="20px">
+                        Hello,Log In
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/offer.jpeg" alt="" width="20px" height="20px">
+                        Offers
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/cart.png" alt="" width="20px" height="20px">
+                        Cart
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!--        
+            <ol>
+                <li class="li1"><a href="#">Medicine</a></li>
+                <li class="li1"><a href="#">Lab Test</a></li>
+                <li class="li1"><a href="#">Helthcare</a></li>
+                <li class="li1"><a href="#">Helth blogs</a></li>
+                <li class="li1"><a href="#">Plus</a></li>
+                <li class="li1"><a href="#">Offers</a></li>
+                <li class="li1"><a href="#">Value Store</a></li>
+            </ol> -->
+
+    </nav>
+    <!-- navbar end -->
+
+    <!-- section start -->
+    <section class="section1">
+        <div style="margin-left: 400px;">
+            <h2>What are you looking for?</h2>
+            <h5 style="margin-left: 440px; font-size: 17px; color: rgb(59, 53, 53);">Order with prescription.</h5>
+            <h4 style="margin-left: 650px; margin-top: -18px; color: rgb(72, 136, 115);">UPLOAD NOW</h4>
+        </div>
+        <div class="div1">
+            <div class="div2"><img src="icons8-search-48.png" alt="" width="20px" height="20px"></div>
+            <div class="div3">Search For</div>
+            <div class="div4"><button>Search</button></div>
+        </div>
+        <div class="division">
+            <div class="images" style="width: 100px; 
+        height: 90px; ">
+                <div class="medicine">
+                    <img src="image/medicine.webp" alt="" style="width: 100px; 
+            height: 90px; margin-left: 10px; ">
+                    <div class="para1">
+                        <h4>Medicine</h4>
+                        <p>UPTO 25% OFF</p>
+                    </div>
+                </div>
+                <div class="lab-test" style="padding-left: 20px;">
+                    <img src="image/labtest.webp" alt="" style="width: 100px; height: 90px; margin-left: 20px;">
+                    <div class="para2">
+                        <h4>Lab Test</h4>
+                        <p>UPTO 70% OFF</p>
+                    </div>
+                </div>
+                <div class="health-care">
+                    <img src="image/healthcare.webp" alt="" style="margin-left: 80px; width: 100px; 
+           height: 90px;">
+                    <div class="para3">
+                        <h4>Health Care</h4>
+                        <p>UPTO 60% OFF</p>
+                    </div>
+                </div>
+                <div class="health-blog">
+                    <img src="image/health_blogs.webp" alt="" style="margin-left: 50px; width: 100px; 
+            height: 90px;">
+                    <div class="para4">
+                        <h4>Health Blog</h4>
+                    </div>
+                </div>
+                <div class="plus" style="margin-top: 70px;">
+                    <img src="image/plus.webp" alt="" style="padding-left: 0px; margin-left: 80px;width: 100px; 
+           height: 90px;">
+                    <div class="para5">
+                        <h4>Plus</h4>
+                        <p>UPTO 5% OFF</p>
+                    </div>
+                </div>
+                <div class="offer">
+                    <img src="image/offers.webp" alt="" style="margin-left: 43px; padding-left: 0px; width: 100px; 
+           height: 90px;">
+                    <div class="para6">
+                        <h4>Offer</h4>
+                    </div>
+                </div>
+                <div class="value-store">
+                    <img src="image/value_store.png" alt="" style="margin-left: 60px; width: 100px; 
+           height: 90px;">
+                    <div class="para7">
+                        <h4>Value Store</h4>
+                        <p style="margin-left: 10px;">UPTO 50% OFF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section1 end -->
+    <!-- section2 start -->
+    <section class="section2">
+        <h1 style="margin-left: 40px; padding-top: 30px;">Your Welcome Offer</h1>
+        <div id="copon">
+            <div class="cupon">
+                <div class="get25">
+                    <h2><a href="#"><img src="image/offer.jpeg" alt="" width="50px">Get Flat 25% OFF on <br>first 3
+                            medicine orders</a></h2>
+                </div>
+                <div class="usecoupon">
+                    <h4>Use Couopn:
+                        <button class="get">25GET <img src="image/copy.jpeg" alt="" width="15px" height="10px"></button>
+                    </h4>
+                </div>
+            </div>
+            <div class="cupon1">
+                <div class="gets25">
+                    <h2><a href="#"><img src="image/offer.jpeg" alt="" width="50px">Get Flat 25% OFF on <br>first 3
+                            medicine orders</a></h2>
+                </div>
+                <div class="usecoupon2">
+                    <h4>Use Couopn:
+                        <button class="get2">25GET <img src="image/copy.jpeg" alt="" width="15px"
+                                height="10px"></button>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <!-- banner start -->
+        <div class="banner">
+            <img src="image/banner1.webp" alt="">
+            <img src="image/banner2.webp" alt="">
+            <img src="image/banner3.webp" alt="">
+        </div>
+        <!-- banner end -->
+    </section>
+    <!-- section2 end -->
+
+    <!-- CONtainer ON Contain start-->
+    <conatiner class="contain">
+        <div class="tests">
+            <h1>Lab Tests by Health Concern</h1>
+            <p> Powered by <img src="image/Thyrocare.webp" alt=""></p>
+        </div>
+        <div class="photos">
+            <img src="image/dct.png" alt="">
+            <img src="image/vitamins.png" alt="">
+            <img src="image/bloodcheck.png" alt="">
+            <img src="image/fever.png" alt="">
+            <img src="image/women.png" alt="">
+            <img src="image/thyroid.png" alt="">
+            <img src="image/covid.png" alt="">
+            <img src="image/bone.png" alt="">
+            <img src="image/heart.png" alt="">
+            <img src="image/lifestyle.png" alt="">
+        </div>
+
+        <!-- new section start -->
+        <div id="over">
+            <div class="sec1">
+                <img src="image/copypen.svg" alt="">
+                <h3>Order with Prescription</h3>
+                <p>Upload prescription and we will deliver your medicines</p>
+                <button>Upload</button>
+            </div>
+            <div class="sec2">
+                <p style="color: black; font-size: 20px; font-weight: lighter; padding-top: 10px; margin-left: 100px;">
+                    How does this work?</p>
+                <!-- <ol>
+                    <li>Upload a photo of your prescription</li>
+                    <li>Add delivery address and place the order</li>
+                    <li>We will call you to confirm the medicines</li>
+                    <li>Now, sit back! your medicines will get delivered at your doorstep</li>
+                </ol> -->
+                <div class="list-type">
+                    <h2 class="no1">1</h2>
+                    <p>Upload a photo of your prescription</p>
+                    <h2 class="no2">2</h2>
+                    <p>Add delivery address and place the order</p>
+                    <h2 class="no3">3</h2>
+                    <p>We will call you to confirm the medicines</p>
+                    <h2 class="no4">4</h2>
+                    <p>Now, sit back! your medicines will get delivered at your doorstep</p>
+                </div>
+            </div>
+        </div>
+    </conatiner>
+
+    <!-- CONtainer ON Contain end-->
+
+
+    <!-- NEW SECETION ON CATEGORIES -->
+
+    <div id="Categories">
+        <h1>Shop by Categories</h1>
+        <div id="shop">
+            <div class="top1">
+                <div class="Capture1">
+                    <img src="image/newlunch/chirip.webp" alt="">
+                </div>
+
+                Top products
+            </div>
+            <div class="top2">
+                <div class="Capture1">
+                    <img src="image/newlunch/volini.webp" alt="">
+                </div>
+
+                Elderly care
+            </div>
+            <div class="top3">
+                <div class="Capture1">
+                    <img src="image/newlunch/sensodyne.webp" alt="">
+                </div>
+
+                Personal care
+            </div>
+            <div class="top4">
+                <div class="Capture1">
+                    <img src="image/newlunch/healthdevice.webp" alt="">
+                </div>
+
+                Healthcare devices
+            </div>
+            <div class="top5">
+                <div class="Capture1">
+                    <img src="image/newlunch/horlicks.webp" alt="">
+                </div>
+
+                Health food and <br> drinks
+            </div>
+            <div class="top6">
+                <div class="Capture1">
+                    <img src="image/newlunch/skincare.webp" alt="">
+                </div>
+
+                Skin care
+            </div>
+            <div class="top7">
+                <div class="Capture1">
+                    <img src="image/newlunch/motherbaby.webp" alt="">
+                </div>
+
+                Mother and baby <br>care
+            </div>
+            <div class="top8">
+                <div class="Capture1">
+                    <img src="image/newlunch/accessories.webp" alt="">
+                </div>
+
+                Accessories & <br>wearables
+            </div>
+            <div class="top9">
+                <div class="Capture1">
+                    <img src="image/newlunch/fitness.webp" alt="">
+                </div>
+
+                Fitness <br>
+                supplements
+            </div>
+            <div class="top10">
+                <div class="Capture1">
+                    <img src="image/newlunch/ayurvedic.webp" alt="">
+                </div>
+
+                Ayurvedic care
+            </div>
+            <div class="top11">
+                <div class="Capture1">
+                    <img src="image/newlunch/megaclearnes.webp" alt="">
+                </div>
+
+                Sexual wellness
+            </div>
+            <div class="top12">
+                <div class="Capture1">
+                    <img src="image/newlunch/trending.webp" alt="">
+                </div>
+
+                Mega clearance <br> sale
+            </div>
+            <div class="top13">
+                <div class="Capture1">
+                    <img src="image/newlunch/matterss.webp" alt="">
+                </div>
+                Trending product
+            </div>
+            <div class="top14">
+                <div class="Capture1">
+                    <img src="image/newlunch/sugardiabtie.webp" alt="">
+                </div>
+
+                Top products
+            </div>
+            <div class="top15">
+                <div class="Capture1">
+                    <img src="image/newlunch/b1a199bf20a9325798872b8685114856vaporubeno.webp" alt="">
+                </div>
+
+                Helth condition
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW SECETION ON CATEGORIES end -->
+
+
+
+    <!-- NEW SECETION ON CATLOK -->
+
+    <div id="Catlok">
+        <h1>New Launches
+        </h1>
+        <p style="color: black; margin-left: 110px; font-size: 15px; margin-top: 5px;"> New wellness range just for you!
+        </p>
+        <div id="shoping">
+
+
+            <div class="best1">
+                <div class="Capturing1">
+                    <img src="image/newlunch/dr morepen.webp" alt="">
+                </div>
+                Dr.morepen bg 03 <br> blood glucose 50..
+                <h5>
+                    666.04
+                    <p>(22%)</p>
+                </h5>
+            </div>
+            <div class="best2">
+                <div class="Capturing1">
+                    <img src="image/newlunch/liveasy.webp" alt="">
+                </div>
+                Liveasy care ultra <br> sanitary pads |14xx..
+                <h5>
+                    152.10
+                    <p>(10%)</p>
+                </h5>
+            </div>
+            <div class="best3">
+                <div class="Capturing1">
+                    <img src="image/newlunch/shelcal.webp" alt="">
+                </div>
+                Shelcal 500mg bottle <br> of 40 tablets
+                <h5>
+                    315.12
+                    <p>(10%)</p>
+                </h5>
+            </div>
+            <div class="best4">
+                <div class="Capturing1">
+                    <img src="image/newlunch/cerave.webp" alt="">
+                </div>
+
+                Cerve foaming daily <br> gel cleanser for..
+            </div>
+            <div class="best5">
+                <div class="Capturing1">
+                    <img src="image/newlunch/dettol.webp" alt="" style="height: 90px; width: 70px;">
+                </div>
+
+                Dettol multi- surface <br> disnfectant santizer..
+            </div>
+            <div class="best6">
+                <div class="Capturing1">
+                    <img src="image/newlunch/mela.webp" alt="" style="height: 60px; width: 90px; margin-top: 40px;">
+                </div>
+                Melalumin lip <br> lightener 10gm
+
+            </div>
+            <div class="best7">
+                <div class="Capturing1">
+                    <img src="image/newlunch/stayfree.webp" alt="">
+                </div>
+                stayfree drymax all <br> nights ultra dry size..
+                <h5>
+                    382.15
+                    <p>(1%)</p>
+                </h5>
+            </div>
+            <div class="best8">
+                <div class="Capturing1">
+                    <img src="image/newlunch/baidy.webp" alt="" style="height: 90px; width: 70px;">
+                </div>
+                Baidynanth nagpur <br> mahabringraj tel hair..
+                <h5>
+                    254.20
+                    <p>(18%)</p>
+                </h5>
+            </div>
+            <div class="best9">
+                <div class="Capturing1">
+                    <img src="image/newlunch/fixderma.webp" alt="" style="height: 90px; width: 70px;">
+                </div>
+
+                Fixderma shadow spf <br>30A gel 75ml
+                <h5>
+                    369.01
+                    <p>(15%)</p>
+                </h5>
+            </div>
+            <div class="best10">
+                <div class="Capturing1">
+                    <img src="image/newlunch/jagat.webp" alt="">
+                </div>
+
+                jagat pharma pure <br> giloy & ashwafandha.
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW SECETION ON CATLOK  end-->
+
+
+    <!-- NEW SECETION ON CATEGLOK -->
+
+    <div id="Categlok">
+        <h1>Trending Near You</h1>
+        <p style="color: black; margin-left: 110px; font-size: 15px; margin-top: 5px;">Popular in your city</p>
+        <div id="show">
+
+            <div class="new1">
+                <div class="Capt1">
+                    <img src="image/trending/shelcal500.webp" alt="">
+                </div>
+                Shelcal 500mg strip <br> of 15 tablets
+                <h4>115.54
+                    <p>(12%)</p>
+                </h4>
+            </div>
+            <div class="new2">
+                <div class="Capt1">
+                    <img src="image/trending/every.webp" alt="">
+                </div>
+
+                everheard karela <br> jamun juice -helps..
+                <h4>207.48
+                    <p>(48%)</p>
+                </h4>
+            </div>
+            <div class="new3">
+                <div class="Capt1">
+                    <img src="image/trending/evap.webp" alt="">
+                </div>
+                Evion 400mg strip of <br> 20 capsule
+                <h4>70.29
+                </h4>
+            </div>
+            <div class="new4">
+                <div class="Capt1">
+                    <img src="image/trending/supradyn.webp" alt="">
+                </div>
+                Superadyn daily <br> Multivitamin tablest..
+                <h4>52.50
+                    <p>(13%)</p>
+                </h4>
+
+            </div>
+            <div class="new5">
+                <div class="Capt1">
+                    <img src="image/trending/pharmeasy-pill.webp" alt="">
+                </div>
+                Pharmeasy pill box <br>organizer
+                <h4>249.50
+                    <p>(50%)</p>
+                </h4>
+            </div>
+            <div class="new6">
+                <div class="Capt1">
+                    <img src="image/trending/smaldr.webp" alt="">
+                </div>
+                Dr.Morepen gluco <br>one bg 03..
+                <h4>730.14
+                    <p>(14%)</p>
+                </h4>
+            </div>
+            <div class="new7">
+                <div class="Capt1">
+                    <img src="image/trending/anti.webp" alt="">
+                </div>
+                Liveasy wellness anti <br>fungal dusting..
+                <h4>83.70
+                    <p>(7%)</p>
+                </h4>
+            </div>
+            <div class="new8">
+                <div class="Capt1">
+                    <img src="image/trending/accu.webp" alt="" style="height: 100px;">
+                </div>
+                Accu-chek active <br>glucometer test..
+                <h4>986.06
+                    <p>(6%)</p>
+                </h4>
+
+            </div>
+            <div class="new9">
+                <div class="Capt1">
+                    <img src="image/trending/calcimax.webp" alt=""
+                        style="height: 78px; width: 100px; margin-top: 40px;">
+                </div>
+                Calcimax Forte Plus <br>strip of 30 tablest
+                <h4>266.05
+                    <p>(15%)</p>
+                </h4>
+            </div>
+            <div class="new10">
+                <div class="Capt1">
+                    <img src="image/trending/calcimax 500.webp" alt=""
+                        style="height: 78px; width: 100px; margin-top: 40px;">
+                </div>
+                Calcimax 500 Health <br>
+                Supplement Tablets..
+                <h4>344.25
+                    <p>(15%)</p>
+                </h4>
+            </div>
+            <div class="new11">
+                <div class="Capt1">
+                    <img src="image/trending/himalaya.webp" alt="">
+                </div>
+
+                Himalaya Baby Happy <br>
+                Gift pack 9's
+                <h4>1212.75
+                    <p>(1%)</p>
+                </h4>
+            </div>
+            <div class="new12">
+                <div class="Capt1">
+                    <img src="image/trending/depura-600.webp" alt="">
+                </div>
+                Depura 60000 lu
+                <br>Vitamin D3 oral..
+                <h4>88.81
+                    <p>(15%)</p>
+                </h4>
+            </div>
+            <div class="new13">
+                <div class="Capt1">
+                    <img src="image/trending/bdutra.webp" alt="">
+                </div>
+
+                Bd Ultra Fine Pen Liii <br>
+                pen Needles 4mmm...
+                <h4>921.02
+                    <p>(4%)</p>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW SECETION ON CATEGLOK  end-->
+
+
+    <!-- NEW BOX START                 -->
+
+    <div id="newboxxes" style="z-index: -1;">
+        <a href="#" style="text-decoration: none;">
+            <div class="h2p" style="z-index: -1;">
+                <h2>
+                    Become a <img src="image/plusnew.png" alt=""> member
+                    <p>And enjoy extra bachat on every orfer </p>
+                </h2>
+                <hr width="300px"
+                    style="color: #F5B326;  margin-top: 10px; background-color: transparent; margin: 12px; height: 2px; margin-left: 60px; ">
+                <p class="save">
+                    sve 5% on allopathic medicine ,50% on 1st lab test &
+                    get FREE delivery with PLUS membership know >
+                </p>
+            </div>
+            <div class="bttn">
+                <button><a href="#">Explore Now <i>></i></a></button>
+            </div>
+            <div class="plus">
+                <img src="image/PlusFamily..png" alt="">
+            </div>
+
+        </a>
+    </div>
+
+    <!-- NEW BOX END -->
+
+    <conatainer id="containne">
+        <h1 style="margin-top: 50px; margin-left: 50px;">Frequently Booked Lab Tests</h1>
+        <div class="allbox">
+            <div class="firstbox">
+                <button><a href="#">63% OFF</a></button>
+                <h3>Comprehensive Full Body Checkup with Vitamin D & B12</h3>
+                <span class="pp">Measures Vitamin D & B12 levels and other essential parameters</span>
+                <br>
+                <div class="span">
+                    <div class="span1">
+
+                        <span class="1">₹ 4899</span><br>
+                        <span class="2">₹ 1799</span>
+                    </div>
+                    <div class="spanimg"><img src="image/newlunch/labtest.png" alt=""></div>
+                </div>
+            </div>
+            <div class="secondbox">
+                <button><a href="#">63% OFF</a></button>
+                <h3>Comprehensive Full Body Checkup with Vitamin D & B12</h3>
+                <span class="pp">Measures Vitamin D & B12 levels and other essential parameters</span>
+                <br>
+                <div class="span">
+                    <div class="span1">
+
+                        <span class="1">₹ 4899</span><br>
+                        <span class="2">₹ 1799</span>
+                    </div>
+                    <div class="spanimg"><img src="image/newlunch/bodycheckup.png" alt=""></div>
+                </div>
+            </div>
+            <div class="thirdbox">
+                <button><a href="#">63% OFF</a></button>
+                <h3>Comprehensive Full Body Checkup with Vitamin D & B12</h3>
+                <span class="pp">Measures Vitamin D & B12 levels and other essential parameters</span>
+                <br>
+                <div class="span">
+                    <div class="span1">
+
+                        <span class="1">₹ 4899</span><br>
+                        <span class="2">₹ 1799</span>
+                    </div>
+                    <div class="spanimg"><img src="image/newlunch/checkupbood.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="forthbox">
+                <button><a href="#">63% OFF</a></button>
+                <h3>Comprehensive Full Body Checkup with Vitamin D & B12</h3>
+                <span class="pp">Measures Vitamin D & B12 levels and other essential parameters</span>
+                <br>
+                <div class="span">
+                    <div class="span1">
+
+                        <span class="1">₹ 4899</span><br>
+                        <span class="2">₹ 1799</span>
+                    </div>
+                    <div class="spanimg"><img src="image/newlunch/basic health.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </conatainer>
+    <!-- conatainer is end -->
+    <!-- new section start -->
+
+    <section id="new-section" style="background-color: aliceblue;">
+
+        <div class="again-box">
+            <div class="h1-p">
+                <h1 style="margin-top: 20px; padding-top: 20px;">Wellness Essentials of the Week</h1>
+                <p style="padding-top: 10px;"> Super charge your immunity with us</p>
+            </div>
+            <div id="All-area">
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-constipation-powder-.webp" alt=""
+                                    width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/nivea-body-milk-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/onetouch-select-plus-simple.webp" alt=""
+                                    width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/bcca.webp" alt="" width="80px" height="90px"
+                                    style="margin-left: 35px;"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/nutrabay-pro-fish.webp" alt="" width="50px"
+                                    height="90px" style="margin-left: 45px;"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/nutrabay-pro-fish.webp" alt="" width="50px"
+                                    height="90px" style="margin-left: 45px;"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img
+                                    src="image/trending/owash-ultra-mild-oily-skin-wash-2-1669655281.webp" alt=""
+                                    width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/everherb-by-pharmeasy-fat-burner-.webp" alt=""
+                                    width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/healthkart-hk-vitals-fish-oil-.webp" alt=""
+                                    width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/healthkart-hk-vitals-fish-oil-.webp" alt=""
+                                    width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/everherb-by-pharmeasy-flaxseed-omega.webp"
+                                    alt="" width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="start-here">
+                    <a href="#">
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/kapiva-himalayan-shilajit-r.webp" alt=""
+                                    width="102px" height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                        <div class="softovac">
+                            <div class="sf-img"><img src="image/trending/softovac-sf-.webp" alt="" width="102px"
+                                    height="90px"></div>
+                        </div>
+                        <div class="sf-content">
+                            <h5>Softovac Sf Constipation powder Bottle of 250 G</h5>
+                            <p>MRP ₹460.00</p>
+                            <span class="price">₹ 368.00</span>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- new section end -->
+
+    <!-- new featurea bRnd -->
+    <div id="brand" style=" width: 100%; background-color: white;">
+        <div class="p-h2">
+            <h2>Featured Brands</h2>
+            <p>Pick from our favourite brands</p>
+        </div>
+        <div id="featured">
+            <div class="hashtag1">
+
+                <div class="feat-brand1">
+                    <img src="image/trending/cerve.png" alt="">
+                </div>
+
+                Cerave
+            </div>
+            <div class="hashtag2">
+                <div class="feat-brand1">
+                    <img src="image/trending/softo.png" alt="">
+                </div>
+
+                Softvac
+            </div>
+            <div class="hashtag3">
+                <div class="feat-brand1">
+                    <img src="image/trending/sleeper.jpg" alt="">
+                </div>
+
+                Pharmeasy
+            </div>
+            <div class="hashtag4">
+                <div class="feat-brand1">
+                    <img src="image/trending/mintop.jpg" alt="">
+                </div>
+
+                Mintop
+            </div>
+            <div class="hashtag5">
+                <div class="feat-brand1">
+                    <img src="image/trending/beone.png" alt="">
+                </div>
+
+                Be One
+            </div>
+            <div class="hashtag6">
+                <div class="feat-brand1">
+                    <img src="image/trending/aptivate.png" alt="">
+                </div>
+
+                Aptivate
+            </div>
+            <div class="hashtag7">
+                <div class="feat-brand1">
+                    <img src="image/trending/zingavita.png" alt="">
+                </div>
+
+                zingavita
+            </div>
+            <div class="hashtag8">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/accessories.webp" alt="">
+                </div>
+
+                Accessories & <br>wearables
+            </div>
+            <div class="hashtag9">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/fitness.webp" alt="">
+                </div>
+
+                Fitness <br>
+                supplements
+            </div>
+            <div class="hashtag10">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/ayurvedic.webp" alt="">
+                </div>
+
+                Ayurvedic care
+            </div>
+            <div class="hashtag11">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/megaclearnes.webp" alt="">
+                </div>
+
+                Sexual wellness
+            </div>
+            <div class="hashtag12">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/trending.webp" alt="">
+                </div>
+
+                Mega clearance <br> sale
+            </div>
+            <div class="hashtag13">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/matterss.webp" alt="">
+                </div>
+                Trending product
+            </div>
+            <div class="hashtag14">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/sugardiabtie.webp" alt="">
+                </div>
+
+                Top products
+            </div>
+            <div class="hashtag15">
+                <div class="feat-brand1">
+                    <img src="image/newlunch/b1a199bf20a9325798872b8685114856vaporubeno.webp" alt="">
+                </div>
+
+                Helth condition
+            </div>
+        </div>
+    </div>
+    <conatainer id="Deals-day">
+        <div id="Categlok">
+            <h1>Deals of the Day</h1>
+            <div class="hurryup"><img src="image/trending/clock.png" alt="" width="15px">
+                <p>14:08 MINS LEFT,HURRY! </p>
+            </div>
+            <div class="a-h4"><a href="#">
+                    <h4>View All</h4>
+                </a></div>
+
+            <div id="show">
+
+                <div class="new1">
+                    <div class="Capt1">
+                        <img src="image/trending/shelcal500.webp" alt="">
+                    </div>
+                    Shelcal 500mg strip <br> of 15 tablets
+                    <h4>115.54
+                        <p>(12%)</p>
+                    </h4>
+                </div>
+                <div class="new2">
+                    <div class="Capt1">
+                        <img src="image/trending/suntris-spf-40-.webp" alt="">
+                    </div>
+
+                    everheard karela <br> jamun juice -helps..
+                    <h4>207.48
+                        <p>(48%)</p>
+                    </h4>
+                </div>
+                <div class="new3">
+                    <div class="Capt1">
+                        <img src="image/trending/liveasy-surgical-absorbent-cotto.webp" alt="">
+                    </div>
+                    Evion 400mg strip of <br> 20 capsule
+                    <h4>70.29
+                    </h4>
+                </div>
+
+                <div class="new4">
+                    <div class="Capt1">
+                        <img src="image/trending/mintop-forte-5-bottle-of-12.webp" alt="">
+                    </div>
+                    Superadyn daily <br> Multivitamin tablest..
+                    <h4>52.50
+                        <p>(13%)</p>
+                    </h4>
+
+                </div>
+                <div class="new5">
+                    <div class="Capt1">
+                        <img src="image/trending/sebamed-baby-protective-facial-cream-50ml-ph-.webp" alt="">
+                    </div>
+                    Pharmeasy pill box <br>organizer
+                    <h4>249.50
+                        <p>(50%)</p>
+                    </h4>
+                </div>
+                <div class="new6">
+                    <div class="Capt1">
+                        <img src="image/trending/johnsons-baby-no-more-tea.webp" alt="">
+                    </div>
+                    Dr.Morepen gluco <br>one bg 03..
+                    <h4>730.14
+                        <p>(14%)</p>
+                    </h4>
+                </div>
+                <div class="new7">
+                    <div class="Capt1">
+                        <img src="image/trending/johnsons-baby-soap-box-.webp" alt="">
+                    </div>
+                    Liveasy wellness anti <br>fungal dusting..
+                    <h4>83.70
+                        <p>(7%)</p>
+                    </h4>
+                </div>
+                <div class="new8">
+                    <div class="Capt1">
+                        <img src="image/trending/onetouch-select-plus-simple.webp" alt="" style="height: 100px;">
+                    </div>
+                    Accu-chek active <br>glucometer test..
+                    <h4>986.06
+                        <p>(6%)</p>
+                    </h4>
+
+                </div>
+                <div class="new9">
+                    <div class="Capt1">
+                        <img src="image/trending/onetouch-select-plus-simple-glucometer-free-10-test-.webp" alt=""
+                            style="height: 78px; width: 100px; margin-top: 40px;">
+                    </div>
+                    Calcimax Forte Plus <br>strip of 30 tablest
+                    <h4>266.05
+                        <p>(15%)</p>
+                    </h4>
+                </div>
+                <div class="new10">
+                    <div class="Capt1">
+                        <img src="image/trending/calcimax 500.webp" alt=""
+                            style="height: 78px; width: 100px; margin-top: 40px;">
+                    </div>
+                    Calcimax 500 Health <br>
+                    Supplement Tablets..
+                    <h4>344.25
+                        <p>(15%)</p>
+                    </h4>
+                </div>
+                <div class="new11">
+                    <div class="Capt1">
+                        <img src="image/trending/himalaya.webp" alt="">
+                    </div>
+
+                    Himalaya Baby Happy <br>
+                    Gift pack 9's
+                    <h4>1212.75
+                        <p>(1%)</p>
+                    </h4>
+                </div>
+                <div class="new12">
+                    <div class="Capt1">
+                        <img src="image/trending/depura-600.webp" alt="">
+                    </div>
+                    Depura 60000 lu
+                    <br>Vitamin D3 oral..
+                    <h4>88.81
+                        <p>(15%)</p>
+                    </h4>
+                </div>
+                <div class="new13">
+                    <div class="Capt1">
+                        <img src="image/trending/bdutra.webp" alt="">
+                    </div>
+
+                    Bd Ultra Fine Pen Liii <br>
+                    pen Needles 4mmm...
+                    <h4>921.02
+                        <p>(4%)</p>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </conatainer>
+    <!-- now conatainer is end -->
+
+    <conatainer id="Spotlight">
+        <div id="Categlok">
+            <h1>In the Spotlight</h1>
+
+            <div id="show">
+
+                <div class="new1">
+                    <div class="Capt1">
+                        <img src="image/trending/everherb-by-pharmeasy-fat-burner-.webp" alt="">
+                    </div>
+                    Shelcal 500mg strip <br> of 15 tablets
+                    <h4>115.54
+                        <p>(12%)</p>
+                    </h4>
+                </div>
+                <div class="new2">
+                    <div class="Capt1">
+                        <img src="image/newlunch/liveasy.webp" alt="">
+                    </div>
+
+                    everheard karela <br> jamun juice -helps..
+                    <h4>207.48
+                        <p>(48%)</p>
+                    </h4>
+                </div>
+                <div class="new3">
+                    <div class="Capt1">
+                        <img src="image/trending/liveasy-surgical-absorbent-cotto.webp" alt="">
+                    </div>
+                    Evion 400mg strip of <br> 20 capsule
+                    <h4>70.29
+                    </h4>
+                </div>
+
+                <div class="new4">
+                    <div class="Capt1">
+                        <img src="image/trending/mintop-forte-5-bottle-of-12.webp" alt="">
+                    </div>
+                    Superadyn daily <br> Multivitamin tablest..
+                    <h4>52.50
+                        <p>(13%)</p>
+                    </h4>
+
+                </div>
+                <div class="new5">
+                    <div class="Capt1">
+                        <img src="image/trending/sebamed-baby-protective-facial-cream-50ml-ph-.webp" alt="">
+                    </div>
+                    Pharmeasy pill box <br>organizer
+                    <h4>249.50
+                        <p>(50%)</p>
+                    </h4>
+                </div>
+                <div class="new6">
+                    <div class="Capt1">
+                        <img src="image/trending/johnsons-baby-no-more-tea.webp" alt="">
+                    </div>
+                    Dr.Morepen gluco <br>one bg 03..
+                    <h4>730.14
+                        <p>(14%)</p>
+                    </h4>
+                </div>
+                <div class="new7">
+                    <div class="Capt1">
+                        <img src="image/trending/johnsons-baby-soap-box-.webp" alt="">
+                    </div>
+                    Liveasy wellness anti <br>fungal dusting..
+                    <h4>83.70
+                        <p>(7%)</p>
+                    </h4>
+                </div>
+                <div class="new8">
+                    <div class="Capt1">
+                        <img src="image/trending/onetouch-select-plus-simple.webp" alt="" style="height: 100px;">
+                    </div>
+                    Accu-chek active <br>glucometer test..
+                    <h4>986.06
+                        <p>(6%)</p>
+                    </h4>
+
+                </div>
+                <div class="new9">
+                    <div class="Capt1">
+                        <img src="image/trending/onetouch-select-plus-simple-glucometer-free-10-test-.webp" alt=""
+                            style="height: 78px; width: 100px; margin-top: 40px;">
+                    </div>
+                    Calcimax Forte Plus <br>strip of 30 tablest
+                    <h4>266.05
+                        <p>(15%)</p>
+                    </h4>
+                </div>
+                <div class="new10">
+                    <div class="Capt1">
+                        <img src="image/trending/calcimax 500.webp" alt=""
+                            style="height: 78px; width: 100px; margin-top: 40px;">
+                    </div>
+                    Calcimax 500 Health <br>
+                    Supplement Tablets..
+                    <h4>344.25
+                        <p>(15%)</p>
+                    </h4>
+                </div>
+                <div class="new11">
+                    <div class="Capt1">
+                        <img src="image/trending/himalaya.webp" alt="">
+                    </div>
+
+                    Himalaya Baby Happy <br>
+                    Gift pack 9's
+                    <h4>1212.75
+                        <p>(1%)</p>
+                    </h4>
+                </div>
+                <div class="new12">
+                    <div class="Capt1">
+                        <img src="image/trending/depura-600.webp" alt="">
+                    </div>
+                    Depura 60000 lu
+                    <br>Vitamin D3 oral..
+                    <h4>88.81
+                        <p>(15%)</p>
+                    </h4>
+                </div>
+                <div class="new13">
+                    <div class="Capt1">
+                        <img src="image/trending/bdutra.webp" alt="">
+                    </div>
+
+                    Bd Ultra Fine Pen Liii <br>
+                    pen Needles 4mmm...
+                    <h4>921.02
+                        <p>(4%)</p>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="banner-banner">
+            <img src="image/trending/photo1.webp" alt="">
+            <img src="image/trending/photo2.webp" alt="">
+            <img src="image/trending/photo3.webp" alt="">
+            <img src="image/trending/photo4.webp" alt="">
+            <img src="image/trending/photo5.webp" alt="">
+            <img src="image/banner1.webp" alt="">
+            <img src="image/banner1.webp" alt="">
+            <img src="image/banner1.webp" alt="">
+            <img src="image/banner1.webp" alt="">
+            <img src="image/banner1.webp" alt="">
+            <img src="image/banner2.webp" alt="">
+            <img src="image/banner3.webp" alt="">
+        </div>
+    </conatainer>
+
+    <conatainer id="health-article">
+        <div class="p-h1">
+            <h1>Health Articles</h1>
+            <p>Get up-to-date on our latest health updates</p>
+        </div>
+        <div class="Article">
+            <a href="#">
+                <div class="store">
+                    <img src="image/trending/fruits.jpg" alt="">
+                    <p>What Are Whole Foods? A Comprehensive Guide to Healthy eating</p>
+                </div>
+                <div class="store">
+                    <img src="image/trending/alcolhal.jpg" alt="">
+                    <p>What Are Whole Foods? A Comprehensive Guide to Healthy eating</p>
+                </div>
+                <div class="store">
+                    <img src="image/trending/sirdard.jpg" alt="">
+                    <p>What Are Whole Foods? A Comprehensive Guide to Healthy eating</p>
+                </div>
+                <div class="store">
+                    <img src="image/trending/wakeup.jpg" alt="">
+                    <p>What Are Whole Foods? A Comprehensive Guide to Healthy eating</p>
+                </div>
+                <div class="store">
+                    <img src="image/trending/liverpain.jpg" alt="">
+                    <p>What Are Whole Foods? A Comprehensive Guide to Healthy eating</p>
+                </div>
+                <div class="store">
+                    <img src="image/trending/depression.jpg" alt="">
+                    <p>What Are Whole Foods? A Comprehensive Guide to Healthy eating</p>
+                </div>
+            </a>
+        </div>
+    </conatainer>
+
+    <conatainer id="choose">
+        <div class="choosen-now">
+            <div class="h3">
+                <h3>Why Choose Us?</h3>
+            </div>
+            <div class="why-choose">
+                <div class="million">
+                    <img src="#" alt="">million <sup>+</sup>
+                    <div class="now32">
+                        <h4>32 Million</h4>
+                        <p>Registered users as of Mar 31,2022</p>
+                    </div>
+                </div>
+
+
+                <div class="million">
+                    <img src="#" alt="">million <sup>+</sup>
+                    <div class="now32">
+                        <h4>36 Million+</h4>
+                        <p>Orders on Pharmeasy till date </p>
+                    </div>
+                </div>
+                <div class="million">
+                    <img src="#" alt="">million <sup>+</sup>
+                    <div class="now32">
+                        <h4>99000+</h4>
+                        <p>Unique items sold last 3 months</p>
+                    </div>
+                </div>
+                <div class="million">
+                    <img src="#" alt="">million <sup>+</sup>
+                    <div class="now32">
+                        <h4>19500+</h4>
+                        <p>Pin codes serviced last 3 months </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </conatainer>
+    <div id="simplify">
+        <div class="simple">
+            <h2>Simplifying Healthcare Impacting Lives
+                <p>Download the APP for Free</p>
+                <div class="app">
+                    <div class="playstore"><img src="#" alt=""></div>
+                    <h6>Download the app on playstore</h6>
+                    <div class="appstore"><img src="#" alt="">
+                        <h6>Download the app on Appstore</h6>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="customer">
+        <h1>What Our Customers have to Say</h1>
+        <div class="services">
+            <div class="name-customer">
+                <div class="h-p">
+                    <h3>Nisha Tomar</h3>
+                    <p>March 22,2023</p>
+                </div>
+                <div class="customer-box">
+                    <p>I love using the PharmEasy app!
+                        They have everything related to health, like
+                        medicines, lab tests, and other healthcare essentials,
+                        at GREAT prices. Their service is amazing and quick, and the app is also easy to use.</p>
+                </div>
+            </div>
+            <div class="name-customer">
+                <div class="h-p">
+                    <h3>Arvind Dingwani</h3>
+                    <p>February 26, 2023</p>
+                </div>
+                <div class="customer-box">
+                    <p>I was a bit doubtful about using an online
+                        pharmacy, but PharmEasy exceeded my expectations.
+                        The discount coupons were great, prices were
+                        very reasonable, and the delivery was quick and smooth.
+                        I would definitely use it again.</p>
+                </div>
+            </div>
+            <div class="name-customer">
+                <div class="h-p">
+                    <h3>Shreya Sharma</h3>
+                    <p>April 15, 2023</p>
+                </div>
+                <div class="customer-box">
+                    <p>I can't recommend the PharmEasy app enough!
+                        It's the perfect one-stop shop for my whole family's
+                        healthcare needs. The offers you can get here are beyond
+                        what other platforms offer. Customer service, including returns, is
+                        also very convenient. This app deserves 5 stars.</p>
+                </div>
+            </div>
+            <div class="name-customer">
+                <div class="h-p">
+                    <h3>Rajeev Kapoor</h3>
+                    <p>January 3, 2023</p>
+                </div>
+                <div class="customer-box">
+                    <p>I recently started using PharmEasy, and I'm already a
+                        fan. They have a vast selection of products at affordable
+                        prices, which is a huge relief for my wallet. Their delivery is always prompt,
+                        and their customer service is top-notch. Thank you.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <style>
+
+    </style>
+</body>
+<script src="pharmeasy.js"></script>
+
+</html>
